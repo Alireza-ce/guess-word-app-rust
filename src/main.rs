@@ -16,7 +16,7 @@ fn main() {
         let guess: u32 = match guess.trim().parse() {
             Ok(num) => num,
             Err(_) => {
-                println!("wrong format: please enter a number");
+                println!("wrong format: please enter a valid number");
                 continue;
             }
         };
